@@ -1,0 +1,123 @@
+/* Navigation */
+  .navbar{
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    background: rgba(0,0,0,.6) !important;
+  }
+  .navbar-brand{
+    color: orangered !important;
+  }
+  .navbar-nav li{
+    padding-right: .7rem;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color: white !important;
+    padding-top: .8rem;
+  }
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: orangered !important;
+  }
+.bg-black{
+  background-color: rgba(14,14,14,1.00);
+}
+/*End Navigation*/
+.col-md-2:hover{
+  color: orangered;
+  cursor: pointer;
+}
+.carousel-caption{
+  top: 300px;
+}
+
+.bg-orange{
+  background-color: #f0644f;
+  color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+}
+.m-right{
+  border: 2px solid #f0644f;
+  border-right: 2px solid white;
+}
+.underline{
+  width: 100px;
+  height: 2px;
+  background-color: orangered;
+}
+.bg-light-gray{
+  background-color: rgba(111,111,111,0.09);
+}
+.underline-green{
+  width: 100px;
+  height: 2px;
+  background-color: lawngreen;
+}
+.media img{
+  max-height: 120px;
+  height: auto;
+}
+.card-body{
+  text-align: center;
+}
+.blog .media img{
+  max-width: 400px;
+  height: auto;
+}
+/* Image Slider */
+  
+  .carousel-caption h3{
+    font-weight: 700;
+    font-size: 3.8rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+  }
+  .carousel-caption p{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    
+  }
+  .card img{
+    max-width: 100%;
+    transition: transform .5s ease;
+  }
+  .card img:hover{
+    transform: scale(1.1);
+    cursor: zoom-in;
+  }
+  .card{
+    overflow: hidden;
+  }
+  .media img{
+    max-width: 100%;
+    transition: transform .5s ease;
+  }
+  .media img:hover{
+    transform: scale(1.1);
+    cursor: zoom-in;
+  }
+  .media{
+    overflow: hidden;
+  }
+    /*Media Query*/
+
+    @media (max-width: 768px){
+
+    }
+    @media (max-width: 576px){
+    .card{
+      margin-bottom: 50px;
+     }
+     .card-body{
+      margin-top: 5px;
+     }
+     .m-right{
+      border: 2px solid #f0644f;
+      border-bottom: 2px solid white;
+     }
+     
+
+
+
+
+   

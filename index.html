@@ -1,0 +1,631 @@
+<!Doctype html>
+<html>
+<head>
+	<title>E-Commerce Responsive Bootstrap </title>
+<!--Custom CSS-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Google Font-->
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<!--Top Navigation-->
+	<div class="container-fluid bg-dark header-top d-none d-md-block">
+		<div class="container">
+			<div class="row text-light pt-2 pb-2">
+				<div class="col-md-5">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					info@gmail.com
+				</div>
+				<div class="col-md-3"></div>
+				<div class="col-md-2">
+					<i class="fa fa-user-o" aria-hidden="true"></i>
+					My Account
+				</div>
+				<div class="col-md-2"><i class="fa fa-cart-plus"></i>
+				My Cart -$0.00</div>
+			</div>
+		</div>
+	</div>
+	<!--End Top Navigation-->
+
+	<!--Start Navigation-->
+	<div class="container-fluid bg-black">
+		<nav class="container navbar navbar-expand-lg bg-black navbar-dark">
+			<a class="navbar-brand" href="#"><strong>FASHIONABLE</strong></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#shop">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#feature">Featured</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#product">Product</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-2">
+					<input type="seach" name="" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+	</div>
+	<!--End Navigation-->
+
+	<!--Start Slider Section-->
+	<div id="demo" class="carousel slide" data-ride="carousel" data-interval="7000">
+		<!-- Indicators -->
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+        	<div class="carousel-item active">
+        		<img src="img/pexels-photo-219598.jpeg" alt="Los Angel" class="d-block w-100">
+        		<div class="carousel-caption d-none d-md-block">
+        			<h3>BEST COLLECTION WINTER</h3>
+        			<p>We had such a great time in LA!</p>
+        			<button class="btn btn-info btn-lg">Shop Now</button>
+        		</div>
+        	</div>
+        	<div class="carousel-item">
+        		<img src="img/pexels-photo-355022.jpeg" alt="Chicago" class="d-block w-100">
+        		<div class="carousel-caption d-none d-md-block">
+                    <h3>BEST COLLECTION WINTER</h3>
+                    <p>Thank you, Chicago!</p>
+                    <button class="btn btn-info btn-lg">Shop Now</button>
+
+                </div>
+        	</div>
+        	<div class="carousel-item">
+        		<img src="img/pexels-photo-573271.jpeg" alt="Chicago" class="d-block w-100">
+        		<div class="carousel-caption d-none d-md-block">
+                    <h3>BEST COLLECTION WINTER</h3>
+                    <p>We love the Big Apple!</p>
+                    <button class="btn btn-info btn-lg">Shop Now</button>
+
+                </div>
+        	</div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        	<span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+        	<span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="container-fluid offer pt-3 pb-3 bg-orange  d-md-block">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-4 m-right">
+    				<h4>FREE SHIPPING</h4>
+    				<p>On Order Over 100$</p>
+    			</div>
+    			<div class="col-md-4 m-right">
+    				<h4>CALL US ANYTIME</h4>
+    				<p>068-9999999</p>
+    			</div>
+    			<div class="col-md-4">
+    				<h4>OUR LOCATION</h4>
+    				<p>Rahim Yar Khan, Pakistan</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--End Slider Section-->
+
+    <!--Section-->
+    <div class="container-fluid bg-light-gray" id="shop">
+    	<div class="container pt-5">
+    		<div class="row">
+    			<h3>ALL LADICE TOP</h3>
+    		</div>
+    		<div class="underline"></div>
+    	</div>
+    	<div class="container mt-5">
+    		<div class="row">
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-458768.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>White Top</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-206410.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>White Top</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-247855.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>White Top</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-235497.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>White Top</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<div class="container pt-5">
+    		<div class="row">
+    			<h3>ALL HEEL SHOES</h3>
+    		</div>
+    		<div class="underline"></div>
+    	</div>
+    	<div class="container mt-5">
+    		<div class="row">
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/show 1.jpg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Black Shoe</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/show 2.jpg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Red Shoe</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/show 3.jpg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Black Shoe</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/show 4.jpg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Pink Shoe</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    </div>
+
+
+    <!--Start Product Section-->
+    <div class="container-fluid pt-5 pb-5" id="product">
+    	<div class="container">
+    		<div class="row">
+    		<div class="col-md-4">
+    			<div class="row">
+    				<h4>MOST WANTED</h4>
+    			</div>
+    			<div class="row">
+    				<div class="underline-green"></div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/belts-823257_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Fitt Belts</h5>
+    					<h6>$5</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/cute-955782_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Short Dress</h5>
+    					<h6>$50</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/fashion-731827_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Magnolia Dress</h5>
+    					<h6>$40</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="col-md-4">
+    			<div class="row">
+    				<h4>SCRAFS</h4>
+    			</div>
+    			<div class="row">
+    				<div class="underline-green"></div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/a-neckerchief-1317830_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Istwic Scraf</h5>
+    					<h6>$5</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/a-neckerchief-1315912_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Jennifer Scraf</h5>
+    					<h6>$50</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/a-neckerchief-1315916_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Andora Scraf</h5>
+    					<h6>$40</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="col-md-4">
+    			<div class="row">
+    				<h4>ON SALE</h4>
+    			</div>
+    			<div class="row">
+    				<div class="underline-green"></div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/woman-1484279_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Marina Style</h5>
+    					<h6>$5</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/key-692199_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Marina Style</h5>
+    					<h6>$50</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    			<div class="media mt-5">
+    				<img src="img/jeans-428614_1920-540x500.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body mt-2">
+    					<h5>Fitt Jeans</h5>
+    					<h6>$40</h6>
+    					<button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    					Add To Cart</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	</div>
+    </div>
+    <!--End Product Section-->
+
+    <!--Start Feature Product Section-->
+        <div class="container-fluid bg-light-gray pt-5 pb-5" id="feature">
+    	<div class="container">
+    		<div class="row">
+    			<h3>FEATURE PRODUCT</h3>
+    		</div>
+    		<div class="underline"></div>
+    	</div>
+    	<div class="container mt-5">
+    		<div class="row">
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-458768.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Top Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-731794.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Blue Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-245931.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>T-Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-220449.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Black Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--End Feature Product Section-->
+
+    <!--Start Blog Section-->
+    <div class="container mt-5">
+    	<div class="row">
+    		<h4>FROM THE BLOG</h4>
+    	</div>
+    	<div class="row">
+    		<div class="underline"></div>
+    	</div>
+    </div>
+
+    <div class="container pb-5 blog">
+    	<div class="row">
+    		<div class="col-md-6">
+    			<div class="media mt-5">
+    				<img src="img/b1.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body">
+    					<h5>Jackets For The Soul...</h5>
+    					<p>We had such a great time in LA!</p>
+    					<p><i class="fa fa-user" aria-hidden="true"></i> admin. Date: 5/17/2020</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="media mt-5">
+    				<img src="img/b2.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body">
+    					<h5>Long Legs?</h5>
+    					<p>We had such a great time in LA!</p>
+    					<p><i class="fa fa-user" aria-hidden="true"></i> admin. Date: 5/17/2020</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<div class="row">
+    		<div class="col-md-6">
+    			<div class="media mt-5">
+    				<img src="img/b3.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body">
+    					<h5>Latest Trends For Autumn Are...</h5>
+    					<p>We had such a great time in LA!</p>
+    					<p><i class="fa fa-user" aria-hidden="true"></i> admin. Date: 5/17/2020</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-md-6">
+    			<div class="media mt-5">
+    				<img src="img/b4.jpg" class="img-fluid mr-3" alt="media img">
+    				<div class="media-body">
+    					<h5>Latest Trens For Autumn Are..</h5>
+    					<p>We had such a great time in LA!</p>
+    					<p><i class="fa fa-user" aria-hidden="true"></i> admin. Date: 5/17/2020</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--End Blog Section-->
+
+    <!--Start Treands Products Section-->
+    <div class="container-fluid bg-light-gray pt-5 pb-5">
+    	<div class="container">
+    		<div class="row">
+    			<h3>TREANDS PRODUCTS</h3>
+    		</div>
+    		<div class="underline"></div>
+    	</div>
+    	<div class="container mt-5">
+    		<div class="row">
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-247206.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Denim Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-731794.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Blue Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-206454.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>T-Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div class="card">
+    					<img src="img/pexels-photo-220449.jpeg" class="card-img-top">
+    					<div class="card-body">
+    						<h5>Black Shirt</h5>
+    						<h5>$50</h5>
+    						<button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+    						Add To Cart</button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--End Treands Products Section-->
+
+    <!--Footer Section-->
+    <footer>
+    	<div class="container-fluid pt-5 bg-dark text-light" id="contact">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-3">
+    					<div class="row">
+    						<h5>Meta</h5>
+    					</div>
+    					<div class="row mb-4">
+    						<div class="underline bg-light" style="width: 50px"></div>
+    					</div>
+    					<p><i class="fa fa-chevron-right" aria-hidden="true"></i> Register</p>
+    					<p><i class="fa fa-chevron-right" aria-hidden="true"></i> Log In</p>
+    					<p><i class="fa fa-chevron-right" aria-hidden="true"></i> Enter RSS</p>
+    					<p><i class="fa fa-chevron-right" aria-hidden="true"></i> Comments</p>
+    					<p><i class="fa fa-chevron-right" aria-hidden="true"></i> MIRDEV</p>
+    				</div>
+
+    				<div class="col-md-3">
+    					<div class="row">
+    						<h5>Recents Posts</h5>
+    					</div>
+    					<div class="row mb-4">
+    						<div class="underline bg-light" style="width: 50px"></div>
+    					</div>
+    					<div class="row">
+    						<div class="media">
+    							<img src="img/b4.jpg" class="img-fluid" alt="media img">
+    							<div class="media-body ml-2">
+    								<h6>Latest Trens For Autumn Are..</h6>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="row pt-2">
+    						<div class="media">
+    							<img src="img/b3.jpg" class="img-fluid" alt="media img">
+    							<div class="media-body ml-2">
+    								<h6>Latest Trens For Autumn Are..</h6>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="col-md-3 pl-5">
+    					<div class="row">
+    						<h5>About Us</h5>
+    					</div>
+    					<div class="row mb-4">
+    						<div class="underline bg-light" style="width: 50px"></div>
+    					</div>
+    					<div class="row">
+    						<p>To continue to grow in leadership and knowledge, with team members and colleagues and develop world-class solution to real word challenges.</p>
+    					</div>
+    				</div>
+
+    				<div class="col-md-3 pl-5">
+    					<div class="row">
+    						<h5>Tags</h5>
+    					</div>
+    					<div class="row mb-4">
+    						<div class="underline bg-light" style="width: 50px"></div>
+    					</div>
+    					<button class="btn btn-outline-light">Autumn</button>
+    					<button class="btn btn-outline-light">Dress</button>
+    					<button class="btn btn-outline-light">Shirt</button><br><br>
+    					<button class="btn btn-outline-light">Ladie</button>
+    					<button class="btn btn-outline-light">Black Dress</button>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+
+</body>
+</html>
